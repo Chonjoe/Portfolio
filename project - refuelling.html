@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refueling Dashboard | Joseph Onwubuariri</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Joseph Onwubuariri</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="back-link">
+      <a href="index.html">← Back to Home</a>
+    </div>
+
+    <article class="project-detail">
+      <h1>Refueling Operations Dashboard</h1>
+      
+      <img src="Refuelling.png" alt="Refueling Dashboard showing 28M liters across 36K sites" class="detail-hero-image">
+      
+      <section class="project-description">
+        <h2>About This Project</h2>
+        <p>This is an enterprise refueling dashboard tracking 28M liters across 36K sites, with RTO-level variance analysis and analyst performance metrics. Built with Power BI to optimize fuel distribution and identify operational bottlenecks.</p>
+      </section>
+      
+      <section class="project-tech">
+        <h2>What I Used</h2>
+        <ul>
+          <li>Power BI Desktop for data modeling and visualizations</li>
+          <li>DAX for variance calculations and performance metrics</li>
+          <li>Power Query for cleaning refueling data from 36K sites</li>
+          <li>HTML embed code to display on this portfolio</li>
+        </ul>
+      </section>
+      
+      <section class="project-steps">
+        <h2>What I Learned</h2>
+        <ul>
+          <li><strong>Volume hides variance:</strong> 28M liters total sounds great, but RTO breakdown (4.2M down to 1.6M) revealed massive performance gaps between teams.</li>
+          <li><strong>Analyst tracking drives accountability:</strong> Connecting refuel counts to individual analysts helped leadership identify top performers and target coaching where it was needed.</li>
+          <li><strong>RMS vs Flowmeter mismatch is real:</strong> Comparing system data to flowmeter readings exposed calibration issues across 36K sites — invisible without side-by-side comparison.</li>
+          <li><strong>Historical data unlocks trends:</strong> Year filters back to 1900 enabled seasonal pattern analysis and long-term benchmarking against past operations.</li>
+          <li><strong>Multi-dimensional filtering:</strong> Region + RTO + Analyst + Entity + time period — users could slice data 7 ways and find answers in seconds instead of hours.</li>
+        </ul>
+      </section>
+      
+      <div class="demo-link">
+        <a href="#" target="_blank">🔗 View Live Dashboard</a>
+      </div>
+    </article>
+
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Joseph Onwubuariri. Built with HTML & CSS.</p>
+  </footer>
+
+</body>
+</html>

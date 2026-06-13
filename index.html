@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joseph Onwubuariri | Frontend Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Joseph Onwubuariri</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Hi, I'm Joseph Onwubuariri</h1>
+      <p class="tagline">I'm a Power BI developer expanding into web development. I turn data into stories, and now I'm learning to turn code into interfaces. This portfolio is my first step, more projects coming soon.</p>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="Joseph Pressing Laptop.jpg" alt="Photo of Joseph Onwubuariri working on a laptop">
+        <p>I'm a Power BI developer based in Lagos. I've spent the last 5 years helping businesses make sense of their data. Now I'm adding frontend development to my toolkit, because the best dashboards are useless without great interfaces. Outside of coding, I enjoy creating solutions, running, chess, & music. Let's build something together.</p>
+      </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section id="projects" class="projects">
+      <h2>Things I've Built</h2>
+      <div class="project-grid">
+
+        <!-- Card 1 - Links to project.html -->
+        <article class="project-card">
+          <img src="Monitoring.png" alt="Screenshot of monitoring dashboard project">
+          <h3>Diesel Monitoring Dashboard</h3>
+          <p>Real-time dashboard tracking 444K liters of diesel supply, 408 confirmed Digital Waybills, and ₦19M recovered from theft. Built with Power BI to help operations teams reduce fuel loss and optimize logistics across the Zone.</p>
+          <a href="project - monitoring.html">View project →</a>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card">
+          <img src="Refuelling.png" alt="Screenshot of refuelling dashboard project">
+          <h3>Refuelling Operations Dashboard</h3>
+          <p>Enterprise refueling dashboard tracking 28M liters across 36K sites, with RTO-level variance analysis and analyst performance metrics. Built with Power BI.</p>
+          <a href="project - refuelling.html">View project →</a>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card">
+          <img src="Webproject.png" alt="Screenshot of my first website project">
+          <h3>Personal Portfolio Website</h3>
+          <p>My first attempt at building a responsive website, a 2-page developer portfolio built from scartch with HTML & CSS to showcase my projects and skills. It features responsive layout, Project Grid and Contact Form.</p>
+          <a href="project - portfolio.html">View project →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <form action="#" method="post">
+        
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Joseph Onwubuariri. Built with HTML & CSS.</p>
+  </footer>
+
+</body>
+</html>
